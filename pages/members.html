@@ -1,117 +1,778 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Members — Open Science Community Nijmegen</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="../style.css">
+
 </head>
+
+
 <body>
 
+
+<!-- =========================
+     HEADER
+========================= -->
+
 <header class="site">
+
   <div class="wrap bar">
-    <a class="logo" href="../index.html"><img src="../images/OSCN_logo_transparant.png" alt="OSCN"></a>
-    <button class="nav-toggle" id="navToggle">MENU</button>
-    <nav class="primary" id="primaryNav">
+
+    <a class="logo" href="../index.html">
+      <img
+        src="../images/OSCN_logo_transparant.png"
+        alt="OSCN"
+      >
+    </a>
+
+
+    <button
+      class="nav-toggle"
+      id="navToggle"
+      type="button"
+    >
+      MENU
+    </button>
+
+
+    <nav
+      class="primary"
+      id="primaryNav"
+    >
+
       <ul>
-        <li><a class="home-link" href="../index.html" aria-label="Home">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>
-        </a></li>
-        <li class="dropdown">
-          <a href="about.html">About</a>
-          <div class="dropdown-content"><a href="resources.html">Resources</a></div>
+
+        <li>
+
+          <a
+            class="home-link"
+            href="../index.html"
+            aria-label="Home"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+
+              <path d="M3 10.5L12 3l9 7.5"></path>
+
+              <path d="M5 10v10h5v-6h4v6h5V10"></path>
+
+            </svg>
+
+          </a>
+
         </li>
-        <li><a href="events.html">Events</a></li>
+
+
         <li class="dropdown">
-          <a href="news.html">News</a>
-          <div class="dropdown-content"><a href="news.html">News</a><a href="newsletters.html">Newsletters</a></div>
+
+          <a href="about.html">
+            About
+          </a>
+
+          <div class="dropdown-content">
+
+            <a href="resources.html">
+              Resources
+            </a>
+
+          </div>
+
         </li>
-        <li><a href="members.html">Members</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="members.html" class="join-btn">Join</a></li>
+
+
+        <li>
+
+          <a href="events.html">
+            Events
+          </a>
+
+        </li>
+
+
+        <li class="dropdown">
+
+          <a href="news.html">
+            News
+          </a>
+
+          <div class="dropdown-content">
+
+            <a href="news.html">
+              News
+            </a>
+
+            <a href="newsletters.html">
+              Newsletters
+            </a>
+
+          </div>
+
+        </li>
+
+
+        <li>
+
+          <a
+            href="members.html"
+            class="active"
+          >
+            Members
+          </a>
+
+        </li>
+
+
+        <li>
+
+          <a href="contact.html">
+            Contact
+          </a>
+
+        </li>
+
+
+        <li>
+
+          <a
+            href="members.html"
+            class="join-btn"
+          >
+            Join
+          </a>
+
+        </li>
+
       </ul>
+
     </nav>
+
   </div>
+
 </header>
 
+
+
+<!-- =========================
+     PAGE HERO
+========================= -->
+
 <section class="page-hero">
+
   <div class="wrap">
-    <div class="eyebrow"><span class="dot3"><span></span><span></span><span></span></span>MEMBERS</div>
-    <h1>Become part of OSCN</h1>
-    <p class="lede">Open to researchers, staff and students across every Nijmegen research institute.</p>
+
+    <div class="eyebrow">
+
+      <span class="dot3">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </span>
+
+      MEMBERS
+
+    </div>
+
+
+    <h1>
+      Our community
+    </h1>
+
+
+    <p class="lede">
+      Explore researchers, students and professionals who are part of the Open Science Community Nijmegen.
+    </p>
+
   </div>
+
 </section>
+
+
+
+<!-- =========================
+     MEMBERS CONTENT
+========================= -->
 
 <section class="reveal-target">
+
   <div class="wrap">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;">
-      <div>
-        <p style="font-size:15px;color:var(--ink-soft);line-height:1.7;">Anyone affiliated with Radboud University, Radboud UMC, the Max Planck Institute for Psycholinguistics or HAN can join OSCN — no prior open science experience required.</p>
-        <ul style="list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;">
-          <li style="font-size:14px;color:var(--ink-soft);display:flex;gap:10px;"><span style="color:var(--accent);">—</span> Attend journal clubs and workshops</li>
-          <li style="font-size:14px;color:var(--ink-soft);display:flex;gap:10px;"><span style="color:var(--accent);">—</span> Become your faculty&#8217;s ambassador</li>
-          <li style="font-size:14px;color:var(--ink-soft);display:flex;gap:10px;"><span style="color:var(--accent);">—</span> Join the organising team</li>
-          <li style="font-size:14px;color:var(--ink-soft);display:flex;gap:10px;"><span style="color:var(--accent);">—</span> Suggest a topic, speaker or collaboration</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3 style="font-size:19px;color:var(--blue);margin-bottom:10px;">Ready to join?</h3>
-        <p style="font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin:0 0 18px;">Send us a message and we&#8217;ll point you in the right direction.</p>
-        <a href="mailto:openscience.nijmegen@gmail.com" class="btn btn-accent">openscience.nijmegen@gmail.com</a>
-      </div>
+
+
+    <!-- INTRO -->
+
+    <div class="members-intro">
+
+      <p>
+        Explore members of the Open Science Community Nijmegen.
+        Find researchers, students and professionals by institute,
+        position, expertise and interests.
+      </p>
+
     </div>
+
+
+
+    <!-- FILTERS -->
+
+    <div class="member-filters">
+
+
+      <!-- SEARCH -->
+
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search members..."
+        class="search-box"
+      >
+
+
+
+      <!-- INSTITUTE FILTER -->
+
+      <select id="institute-filter">
+
+        <option value="">
+          All institutes
+        </option>
+
+        <option value="Radboud University">
+          Radboud University
+        </option>
+
+        <option value="Radboud UMC">
+          Radboud UMC
+        </option>
+
+        <option value="HAN University of Applied Sciences">
+          HAN University of Applied Sciences
+        </option>
+
+        <option value="Max Planck Institute for Psycholinguistics">
+          Max Planck Institute for Psycholinguistics
+        </option>
+
+      </select>
+
+
+
+      <!-- POSITION FILTER -->
+
+      <select id="position-filter">
+
+        <option value="">
+          All positions
+        </option>
+
+        <option>
+          Assistant Professor
+        </option>
+
+        <option>
+          Associate Professor
+        </option>
+
+        <option>
+          Full Professor
+        </option>
+
+        <option>
+          PhD Candidate
+        </option>
+
+        <option>
+          Postdoctoral Researcher
+        </option>
+
+        <option>
+          Researcher
+        </option>
+
+        <option>
+          Teacher
+        </option>
+
+        <option>
+          Support Staff / Organisational Professional
+        </option>
+
+        <option>
+          Student
+        </option>
+
+      </select>
+
+
+
+      <!-- EXPERTISE FILTER -->
+
+      <select id="expertise-filter">
+
+        <option value="">
+          All expertise
+        </option>
+
+        <option>
+          Citizen Science
+        </option>
+
+        <option>
+          FAIR
+        </option>
+
+        <option>
+          GitHub
+        </option>
+
+        <option>
+          Open Access
+        </option>
+
+        <option>
+          Open Code
+        </option>
+
+        <option>
+          Open Data
+        </option>
+
+        <option>
+          Open Education
+        </option>
+
+        <option>
+          Open Review
+        </option>
+
+        <option>
+          Open Software
+        </option>
+
+        <option>
+          Open Source
+        </option>
+
+        <option>
+          Preregistration
+        </option>
+
+        <option>
+          Public Engagement
+        </option>
+
+        <option>
+          Registered Reports
+        </option>
+
+        <option>
+          Replication
+        </option>
+
+        <option>
+          Reproducibility
+        </option>
+
+        <option>
+          Research Integrity
+        </option>
+
+        <option>
+          Rewards &amp; Recognition
+        </option>
+
+        <option>
+          Scholarly Publishing
+        </option>
+
+        <option>
+          Transparent Reporting
+        </option>
+
+      </select>
+
+
+
+      <!-- INTEREST FILTER -->
+
+      <select id="interest-filter">
+
+        <option value="">
+          All interests
+        </option>
+
+        <option>
+          Citizen Science
+        </option>
+
+        <option>
+          FAIR
+        </option>
+
+        <option>
+          GitHub
+        </option>
+
+        <option>
+          Open Access
+        </option>
+
+        <option>
+          Open Code
+        </option>
+
+        <option>
+          Open Data
+        </option>
+
+        <option>
+          Open Education
+        </option>
+
+        <option>
+          Open Review
+        </option>
+
+        <option>
+          Open Software
+        </option>
+
+        <option>
+          Open Source
+        </option>
+
+        <option>
+          Preregistration
+        </option>
+
+        <option>
+          Public Engagement
+        </option>
+
+        <option>
+          Registered Reports
+        </option>
+
+        <option>
+          Replication
+        </option>
+
+        <option>
+          Reproducibility
+        </option>
+
+        <option>
+          Research Integrity
+        </option>
+
+        <option>
+          Rewards &amp; Recognition
+        </option>
+
+        <option>
+          Scholarly Publishing
+        </option>
+
+        <option>
+          Transparent Reporting
+        </option>
+
+      </select>
+
+
+    </div>
+
+
+
+    <!-- MEMBERS -->
+
+    <div class="members-grid">
+    </div>
+
+
   </div>
+
 </section>
 
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
 <footer class="site">
+
   <div class="wrap footer-grid">
+
+
+    <!-- FOOTER COLUMN 1 -->
+
     <div>
-      <img src="../images/OSCN_logo_transparant.png" alt="OSCN" class="footer-logo">
-      <p>Open Science Community Nijmegen promotes open, transparent and reproducible research through community building and collaboration.</p>
+
+      <img
+        src="../images/OSCN_logo_transparant.png"
+        alt="OSCN"
+        class="footer-logo"
+      >
+
+
+      <p>
+        Open Science Community Nijmegen promotes open,
+        transparent and reproducible research through
+        community building and collaboration.
+      </p>
+
     </div>
+
+
+
+    <!-- FOOTER COLUMN 2 -->
+
     <div class="flinks">
-      <h3>Navigate</h3>
-      <a href="about.html">About</a>
-      <a href="events.html">Events</a>
-      <a href="news.html">News</a>
-      <a href="newsletters.html">Newsletters</a>
-      <a href="members.html">Members</a>
-    </div>
-    <div class="flinks">
-      <h3>Contact</h3>
-      <a href="mailto:openscience.nijmegen@gmail.com">openscience.nijmegen@gmail.com</a>
-      <a class="social-link" href="https://www.linkedin.com/company/open-science-community-nijmegen/" target="_blank" rel="noopener noreferrer">
-        <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.1C12.9 8.8 14.7 7.7 17 7.7c5 0 5.9 3.3 5.9 7.6V24h-5v-7.3c0-1.7 0-3.9-2.4-3.9s-2.8 1.9-2.8 3.8V24h-5V8z"/></svg>
-        LinkedIn
+
+      <h3>
+        Navigate
+      </h3>
+
+
+      <a href="about.html">
+        About
       </a>
+
+
+      <a href="events.html">
+        Events
+      </a>
+
+
+      <a href="news.html">
+        News
+      </a>
+
+
+      <a href="newsletters.html">
+        Newsletters
+      </a>
+
+
+      <a href="members.html">
+        Members
+      </a>
+
+
+      <a href="contact.html">
+        Contact
+      </a>
+
     </div>
+
+
+
+    <!-- FOOTER COLUMN 3 -->
+
+    <div class="flinks">
+
+      <h3>
+        Contact
+      </h3>
+
+
+      <a href="mailto:openscience.nijmegen@gmail.com">
+        openscience.nijmegen@gmail.com
+      </a>
+
+
+      <a
+        class="social-link"
+        href="https://www.linkedin.com/company/open-science-community-nijmegen/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <svg viewBox="0 0 24 24">
+
+          <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.1C12.9 8.8 14.7 7.7 17 7.7c5 0 5.9 3.3 5.9 7.6V24h-5v-7.3c0-1.7 0-3.9-2.4-3.9s-2.8 1.9-2.8 3.8V24h-5V8z"/>
+
+        </svg>
+
+        LinkedIn
+
+      </a>
+
+    </div>
+
+
+
+    <!-- FOOTER COLUMN 4 -->
+
     <div>
-      <h3>Stay updated</h3>
-      <p style="margin-bottom:6px;">Join our newsletter for updates on events and open science news.</p>
-      <form method="post" action="https://open-science-community-nijmegen.email-provider.eu/subscribe/post/index.php" accept-charset="utf-8" class="nl-form form-op7pq9fkox">
-        <input type="hidden" name="next" value="" />
-        <input type="hidden" name="a" value="ohz7mrmpse" />
-        <input type="hidden" name="l" value="op7pq9fkox" />
-        <label for="id-Kz6LqtiXnQ">Email *</label>
-        <input name="Kz6LqtiXnQ" id="id-Kz6LqtiXnQ" type="email" required>
-        <label for="id-P3Px8y6G0Y">First name *</label>
-        <input name="P3Px8y6G0Y" id="id-P3Px8y6G0Y" type="text" required>
-        <label for="id-OTxNlZSNlG">Last name *</label>
-        <input name="OTxNlZSNlG" id="id-OTxNlZSNlG" type="text" required>
-        <input type="email" id="email" name="email" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
-        <input type="submit" value="Subscribe">
+
+      <h3>
+        Stay updated
+      </h3>
+
+
+      <p style="margin-bottom:6px;">
+        Join our newsletter for updates on events and open science news.
+      </p>
+
+
+      <form
+        method="post"
+        action="https://open-science-community-nijmegen.email-provider.eu/subscribe/post/index.php"
+        accept-charset="utf-8"
+        class="nl-form form-op7pq9fkox"
+      >
+
+
+        <input
+          type="hidden"
+          name="next"
+          value=""
+        />
+
+
+        <input
+          type="hidden"
+          name="a"
+          value="ohz7mrmpse"
+        />
+
+
+        <input
+          type="hidden"
+          name="l"
+          value="op7pq9fkox"
+        />
+
+
+        <label for="id-Kz6LqtiXnQ">
+          Email *
+        </label>
+
+
+        <input
+          name="Kz6LqtiXnQ"
+          id="id-Kz6LqtiXnQ"
+          type="email"
+          required
+        />
+
+
+        <label for="id-P3Px8y6G0Y">
+          First name *
+        </label>
+
+
+        <input
+          name="P3Px8y6G0Y"
+          id="id-P3Px8y6G0Y"
+          type="text"
+          required
+        />
+
+
+        <label for="id-OTxNlZSNlG">
+          Last name *
+        </label>
+
+
+        <input
+          name="OTxNlZSNlG"
+          id="id-OTxNlZSNlG"
+          type="text"
+          required
+        />
+
+
+        <!-- Spam honeypot -->
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          style="position:absolute;left:-9999px;"
+          tabindex="-1"
+          autocomplete="off"
+        />
+
+
+        <input
+          type="submit"
+          value="Subscribe"
+        />
+
+
       </form>
+
     </div>
+
+
   </div>
+
+
+
+  <!-- FOOTER BOTTOM -->
+
   <div class="wrap footer-bottom">
-    <span>© 2026 Open Science Community Nijmegen</span>
-    <span><a href="#">Privacy</a> · <a href="#">Cookies</a></span>
+
+    <span>
+      © 2026 Open Science Community Nijmegen
+    </span>
+
+
+    <span>
+
+      <a href="#">
+        Privacy
+      </a>
+
+      ·
+
+      <a href="#">
+        Cookies
+      </a>
+
+    </span>
+
   </div>
+
 </footer>
 
+
+
+<!-- =========================
+     SCRIPTS
+========================= -->
+
+<script src="https://open-science-community-nijmegen.email-provider.eu/subscribe/check/validate.js"></script>
+
+<script src="../scripts/members.js"></script>
+
 <script src="../script.js"></script>
+
+
 </body>
+
 </html>
+```
+
